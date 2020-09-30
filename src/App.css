@@ -25,7 +25,7 @@ body {
 }
 h1 {
   font-size: 3em;
-  line-height: 1;
+  /* line-height: 1; */
   margin-bottom: 0.5em;
 }
 h2 {
@@ -53,22 +53,7 @@ h6 {
   margin-bottom: 1.5em;
 }
 
-.home {
-  min-height: calc(100vh - 66px);
-  background: url("./images/image.png") center/cover no-repeat;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
-.logo{
-  margin-left: 2rem;
-}
-
-.logo img{
-  height: 100px;
-  width: 100px;
-}
 /* Navbar */
 .navbar {
   position: fixed;
@@ -146,36 +131,108 @@ h6 {
   background: red;
   padding: 0.4rem 0.9rem;
   border: 3px solid var(--primaryColor);
+  border-radius: 20px;
   transition: var(--mainTransition);
   text-transform: uppercase;
   cursor: pointer;
-  margin-top: 15px;
+  margin: 10px;
+  width: 150px;
 }
 .btn-primary:hover {
   background: #a8750d;
   color: white;
 }
 
-.header{
+
+.home {
+  min-height: calc(100vh - 66px);
+  background: url("./images/tron.jpg") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner {
   display: inline-block;
-  margin-top: -2rem;
-  /* background: rgba(0, 0, 0, 0.5); */
-  color: white;
+  color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
-  /* letter-spacing: var(--mainSpacing); */
+  letter-spacing: var(--mainSpacing);
+  background: rgba(0, 0, 0, 0.5);
+}
+.banner h1 {
+  font-size: 20px;
+  font-weight: 800px;
+  margin-top: 5rem;
+}
+.banner div {
+  width: 40rem;
+  height: 20px;
+  margin: 1.7rem auto;
+}
+.banner p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  /* color:  #a8750d; */
+}
+@media screen and (min-width: 576px) {
+  .banner {
+    padding: 2rem 3rem;
+  }
+  .banner h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .banner {
+    padding: 2rem 6rem;
+  }
+  .banner h1 {
+    font-size: 4rem;
+  }
 }
 
-.header p{
-  font-size: 15px;
+
+/* services */
+.services {
+  padding: 5rem 0;
+}
+.services {
+  background: var(--darkGrey);
   text-align: center;
 }
-/* matrix*/
-.matrix{
-  font-size: 2rem;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  margin-left: 55rem;
-  color: white;
-  font-style: italic;
+.services-center {
+  width: 90vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  grid-row-gap: 2rem;
+  grid-column-gap: 50px;
+}
+.service span {
+  display: inline-block;
+  color: var(--primaryColor);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.services h6 {
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.services p {
+  width: 80%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 992px) {
+  .services-center {
+    width: 95vw;
+    max-width: 1170px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services p {
+    width: 100%;
+  }
 }
