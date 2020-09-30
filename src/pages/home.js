@@ -19,7 +19,7 @@ export default function Home() {
                             Join Now
                 </Link>
                         <Link to='/login' className='btn-sec'>
-                            Join Now
+                            Video
                 </Link>
                         <Link to='/login' className='btn-prim'>
                             Login
