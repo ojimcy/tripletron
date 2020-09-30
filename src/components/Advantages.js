@@ -37,7 +37,7 @@ export default class Services extends Component {
         icon: <FaAward />,
         title: "Quick and Simple Plan",
         info:
-          "3×10 Lines Matrix – 88572 participant’s in a team of 10 lines are enough to make and earn 4005668700+ Tron every 90 days.",
+          "It has 3×10 Lines Matrix with 88572 participant’s in a team of 10 lines are enough to make and earn 4005668700+ Tron every 90 days.",
       },
       {
         icon: <FaBeer />,
@@ -48,7 +48,7 @@ export default class Services extends Component {
       {
         icon: <FaHiking />,
         title: "Safe and reliable system",
-        info: "TronMatrix runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. The dividends are also automatically paid through the smart contract.",
+        info: "TronMatrix runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. ",
       },
     ],
   };

@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Error from './components/Error';
 import { Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

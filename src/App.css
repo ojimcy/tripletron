@@ -17,9 +17,8 @@
 }
 /* globals */
 body {
-  padding-top: 66px;
   color: var(--mainBlack);
-  background: #4d3a70;;
+  background: var(--mainWhite);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.4;
 }
@@ -97,6 +96,7 @@ h6 {
 }
 .nav-links a:hover {
   color: var(--primaryColor);
+  text-decoration: none;
 }
 
 .show-nav {
@@ -123,7 +123,7 @@ h6 {
 }
 
 /* button primary */
-.btn-primary {
+.btn-prim {
   display: inline-block;
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
@@ -138,7 +138,7 @@ h6 {
   margin: 10px;
   width: 150px;
 }
-.btn-secondary {
+.btn-sec {
   display: inline-block;
   text-decoration: none;
   letter-spacing: var(--mainSpacing);
@@ -154,13 +154,15 @@ h6 {
   width: 150px;
 }
 
-.btn-primary:hover {
+.btn-prim:hover {
   background: var(--mainTransition);
   color: white;
+  text-decoration: none;
 }
-.btn-secondary:hover {
+.btn-sec:hover {
   background: var(--mainTransition);
   color: white;
+  text-decoration: none;
 }
 
 .home {
