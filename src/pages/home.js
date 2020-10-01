@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import Hero from '../components/Hero'
 import Banner from '../components/Banner'
 import MarketingPlan from '../components/MarketingPlan';
@@ -12,23 +11,22 @@ export default function Home() {
             <div className='home'>
                 <Hero >
                     <Banner title='100% decentralized and secure smart contract fund'>
-                        <p>Fastest and easiest way to make over 4005668700
-                    TRX every 90 days. <br />
-            Built for You</p>
-                        <Link to='/login' className='btn-prim'>
+                        <p>Earn unlimited number to TRX every 90 days using the power of 3. <br />
+                        You only need to refer 3 and encourage/help them to do the same.</p>
+                        <a href='/start' className='btn-prim'>
                             Join Now
-                </Link>
-                        <Link to='/login' className='btn-sec'>
-                            Video
-                </Link>
-                        <Link to='/login' className='btn-prim'>
+                        </a>
+                        <a href='/start' className='btn-sec'>
                             Login
-                </Link>
+                        </a>
+                        <a href='https://tronscan.org/#/contract/TGc4NVjUVj1QrDLYRE5RWHcBe26qNAkVp2/code' target='_blank' className='btn-prim'>
+                            Tronscan
+                        </a>
                     </Banner>
                 </Hero>
             </div>
-            <Advantages />
             <MarketingPlan />
+            <Advantages />
         </div>
     )
 }

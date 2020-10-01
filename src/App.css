@@ -86,12 +86,12 @@ h6 {
 
 .btn-prim:hover {
   background: var(--mainTransition);
-  color: white;
+  color: red;
   text-decoration: none;
 }
 .btn-sec:hover {
   background: var(--mainTransition);
-  color: white;
+  color: #28a745;
   text-decoration: none;
 }
 
@@ -193,6 +193,17 @@ h6 {
   }
 }
 
+.earning-box {
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.earning-box img {
+  width: 100%;
+}
 
 .marketing-plan {
   padding: 5rem 0;

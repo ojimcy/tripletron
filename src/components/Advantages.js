@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Title from "./Title";
 import { FaHiking, FaShuttleVan, FaBeer, FaRProject, FaAward, FaForward, FaLayerGroup, FaDollarSign } from "react-icons/fa";
 
 export default class Services extends Component {
@@ -14,18 +13,18 @@ export default class Services extends Component {
         icon: <FaRProject />,
         title: "Longevity and Stability",
         info:
-          "TronMatrix will continue to work until tron blockchain exists and even the creators of TronMakers smart contract will not be able to delete or change its functionality.",
+          "TripleTron will continue to work until tron blockchain exists and even the creators of TripleTron smart contract will not be able to delete or change its functionality.",
       },
       {
         icon: <FaShuttleVan />,
         title: "Transaction Clarity",
-        info: "Transaction history of all TronMatrix networkers are recorded and stored using network node of Tron blockchain on Tron blockchain.",
+        info: "Transaction history of all TripleTron networkers are recorded and stored using network node of Tron blockchain on Tron blockchain.",
       },
       {
         icon: <FaForward />,
         title: "no risk",
         info:
-          "TronMatrix Smart Contract is a decentralized and 100% RISK FREE platform. It is a Networking Platform and it’s built on Tron blockchain.",
+          "TripleTron Smart Contract is a decentralized and 100% RISK FREE platform. It is a Networking Platform and it’s built on Tron blockchain.",
       },
       {
         icon: <FaLayerGroup />,
@@ -43,20 +42,19 @@ export default class Services extends Component {
         icon: <FaBeer />,
         title: "rubost system",
         info:
-          "Indeﬁnite access to the TronMakers project is an intrinsic feature programmed into the smart contract to enable continued participation in the network",
+          "Indeﬁnite access to the TripleTron project is an intrinsic feature programmed into the smart contract to enable continued participation in the network",
       },
       {
         icon: <FaHiking />,
         title: "Safe and reliable system",
-        info: "TronMatrix runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. ",
+        info: "TripleTron runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. ",
       },
     ],
   };
   render() {
     return (
       <section className="services">
-        <h1>How tron matrix works</h1>
-        <Title title="Advantages of using TronMakers smart contract" />
+        <h1>Advantages of using TripleTron smart contract</h1>
         <div className="services-center">
           {this.state.services.map((item, index) => {
             return (
