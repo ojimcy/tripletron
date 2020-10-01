@@ -13,7 +13,7 @@ export default function Home() {
                 <Hero >
                     <Banner title='100% decentralized and secure smart contract fund'>
                         <p>Fastest and easiest way to make over 4005668700
-                    TRX every 90 days. <br />
+                        TRX every 90 days.
             Built for You</p>
                         <Link to='/login' className='btn-prim'>
                             Join Now

@@ -14,18 +14,18 @@ export default class Services extends Component {
         icon: <FaRProject />,
         title: "Longevity and Stability",
         info:
-          "TronMatrix will continue to work until tron blockchain exists and even the creators of TronMakers smart contract will not be able to delete or change its functionality.",
+          "TrippleTron will continue to work until tron blockchain exists and even the creators of TrippleTron smart contract will not be able to delete or change its functionality.",
       },
       {
         icon: <FaShuttleVan />,
         title: "Transaction Clarity",
-        info: "Transaction history of all TronMatrix networkers are recorded and stored using network node of Tron blockchain on Tron blockchain.",
+        info: "Transaction history of all TrippleTron networkers are recorded and stored using network node of Tron blockchain on Tron blockchain.",
       },
       {
         icon: <FaForward />,
         title: "no risk",
         info:
-          "TronMatrix Smart Contract is a decentralized and 100% RISK FREE platform. It is a Networking Platform and it’s built on Tron blockchain.",
+          "TrippleTron Smart Contract is a decentralized and 100% RISK FREE platform. It is a Networking Platform and it’s built on Tron blockchain.",
       },
       {
         icon: <FaLayerGroup />,
@@ -43,20 +43,20 @@ export default class Services extends Component {
         icon: <FaBeer />,
         title: "rubost system",
         info:
-          "Indeﬁnite access to the TronMakers project is an intrinsic feature programmed into the smart contract to enable continued participation in the network",
+          "Indeﬁnite access to the TrippleTron project is an intrinsic feature programmed into the smart contract to enable continued participation in the network",
       },
       {
         icon: <FaHiking />,
         title: "Safe and reliable system",
-        info: "TronMatrix runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. ",
+        info: "TrippleTron runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. ",
       },
     ],
   };
   render() {
     return (
       <section className="services">
-        <h1>How tron matrix works</h1>
-        <Title title="Advantages of using TronMakers smart contract" />
+        <h1>How TrippleTron works</h1>
+        <Title title="Advantages of using TrippleTron smart contract" />
         <div className="services-center">
           {this.state.services.map((item, index) => {
             return (
