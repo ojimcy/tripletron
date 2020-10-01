@@ -24,7 +24,7 @@ export default class Services extends Component {
         icon: <FaForward />,
         title: "no risk",
         info:
-          "TripleTron Smart Contract is a decentralized and 100% RISK FREE platform. It is a Networking Platform and it’s built on Tron blockchain.",
+          "TrippleTron Smart Contract is a decentralized and 100% RISK FREE platform. It is a Networking Platform and it’s built on Tron blockchain.",
       },
       {
         icon: <FaLayerGroup />,
@@ -42,12 +42,12 @@ export default class Services extends Component {
         icon: <FaBeer />,
         title: "rubost system",
         info:
-          "Indeﬁnite access to the TripleTron project is an intrinsic feature programmed into the smart contract to enable continued participation in the network",
+          "Indeﬁnite access to the TrippleTron project is an intrinsic feature programmed into the smart contract to enable continued participation in the network",
       },
       {
         icon: <FaHiking />,
         title: "Safe and reliable system",
-        info: "TripleTron runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. ",
+        info: "TrippleTron runs automatically on the blockchain and its smart contract is uploaded to the TRON blockchain. No can ever edit or delete the smart contract, nor influence its autonomous operation. ",
       },
     ],
   };

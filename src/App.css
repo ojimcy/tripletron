@@ -17,6 +17,7 @@
 }
 /* globals */
 body {
+  padding-top: 66px;
   color: var(--mainBlack);
   background: var(--mainWhite);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -24,7 +25,7 @@ body {
 }
 h1 {
   font-size: 3em;
-  /* line-height: 1; */
+  line-height: 1;
   margin-bottom: 0.5em;
 }
 h2 {
@@ -51,7 +52,6 @@ h6 {
   font-weight: bold;
   margin-bottom: 1.5em;
 }
-
 /* button primary */
 .btn-prim {
   display: inline-block;
@@ -94,7 +94,27 @@ h6 {
   color: #28a745;
   text-decoration: none;
 }
+.loading {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 3rem;
+}
+.error {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 2rem 0;
+}
+.empty-search {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 2rem 0;
+  padding: 1rem;
+  letter-spacing: var(--mainSpacing);
+}
+/* end of globals */
 
+/* Hero */
+.defaultHero,
 .home {
   min-height: calc(100vh - 66px);
   background: url("./images/tron.jpg") center/cover no-repeat;
@@ -103,23 +123,21 @@ h6 {
   justify-content: center;
 }
 
+/* End of Hero */
+/* Banner */
 .banner {
   display: inline-block;
+  background: rgba(0, 0, 0, 0.5);
   color: var(--mainWhite);
   padding: 2rem 1rem;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
-  background: rgba(0, 0, 0, 0.5);
 }
 .banner h1 {
-  font-size: 20px;
-  font-weight: 800px;
-  margin-top: 5rem;
+  font-size: 2.5rem;
 }
 .banner div {
-  width: 40rem;
-  height: 20px;
   margin: 1.7rem auto;
 }
 .banner p {
@@ -143,7 +161,7 @@ h6 {
     font-size: 4rem;
   }
 }
-
+/* End of Banner */
 
 /* services */
 .services {
@@ -165,14 +183,9 @@ h6 {
   display: inline-block;
   color: var(--primaryColor);
   font-size: 2.5rem;
-  margin-top: 3.5rem;
+  margin-bottom: 1.5rem;
 }
 .services h6 {
-  letter-spacing: var(--mainSpacing);
-  text-transform: capitalize;
-}
-
-.services h1 {
   letter-spacing: var(--mainSpacing);
   text-transform: capitalize;
 }
@@ -192,6 +205,7 @@ h6 {
     width: 100%;
   }
 }
+/*end of services */
 
 .earning-box {
   width: 80vw;
@@ -207,24 +221,49 @@ h6 {
 
 .marketing-plan {
   padding: 5rem 0;
+  text-align: center;
+  color: #0d255c;
+  margin-left: -35px;
 }
-.marketing-plan-center {
-  width: 80vw;
-  margin: 0 auto;
+.level-price h1{
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-weight: 800px;
+}
+.level-price-center {
+  width: 90vw;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
   grid-row-gap: 2rem;
-  grid-column-gap: 40px;
+  grid-column-gap: 50px;
+  margin-bottom: 10px;
 }
-@media screen and (min-width: 776px) {
-  .marketing-plan-center {
-    width: 90vw;
-    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
-  }
+.col {
+ border: 2px solid #0d255c;
+ margin: 5px;
+ padding: 10px;
+ border-radius: 10px;
+}
+.level-price h4 {
+  letter-spacing: var(--mainSpacing);
+  text-transform: capitalize;
+}
+.level-price p {
+  width: 80%;
+  margin: 0 auto;
 }
 @media screen and (min-width: 992px) {
-  .marketing-plan-center {
+  .level-price-center {
     width: 95vw;
     max-width: 1170px;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  .level-price p {
+    width: 100%;
+  }
+}
+/*end of level-price */
+
+

@@ -3,6 +3,7 @@ import Hero from '../components/Hero'
 import Banner from '../components/Banner'
 import MarketingPlan from '../components/MarketingPlan';
 import Advantages from '../components/Advantages';
+import LevelPrice from '../components/LevelPrice';
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
                     </Banner>
                 </Hero>
             </div>
+            <LevelPrice />
             <MarketingPlan />
             <Advantages />
         </div>
