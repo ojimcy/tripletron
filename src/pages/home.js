@@ -20,7 +20,7 @@ export default function Home() {
                         <a href='/start' className='btn-sec'>
                             Login
                         </a>
-                        <a href='https://tronscan.org/#/contract/TGc4NVjUVj1QrDLYRE5RWHcBe26qNAkVp2/code' target='_blank' className='btn-prim'>
+                        <a href='https://tronscan.org/#/contract/TGTRQZb2SPLtEgHYeYihcKVU48UvvDz2Wh/code' target='_blank' className='btn-prim'>
                             Tronscan
                         </a>
                     </Banner>
