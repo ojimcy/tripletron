@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Banner from '../components/Banner'
 import MarketingPlan from '../components/MarketingPlan';
 import Advantages from '../components/Advantages';
+import LevelPrice from '../components/LevelPrice';
 
 
 export default function Home() {
@@ -12,9 +13,8 @@ export default function Home() {
             <div className='home'>
                 <Hero >
                     <Banner title='100% decentralized and secure smart contract fund'>
-                        <p>Fastest and easiest way to make over 4005668700
-                        TRX every 90 days.
-            Built for You</p>
+                        <p>Earn Unlimited Number To TRX Every 90 Days Using The Power Of 3.
+                        <br />You Only Need To Refer 3 And Encourage/Help Them To Do The Same</p>
                         <Link to='/login' className='btn-prim'>
                             Join Now
                 </Link>
@@ -29,6 +29,7 @@ export default function Home() {
             </div>
             <Advantages />
             <MarketingPlan />
+            <LevelPrice />
         </div>
     )
 }
